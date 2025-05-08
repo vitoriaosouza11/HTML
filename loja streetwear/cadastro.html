@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+</head>
+<nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark border-bottom border-body" data-bs-theme="dark">
+    <!-- Navbar content -->
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">SOUZA.STREET</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Produtos</a>
+                </li>
+                <li class="nav-iten">
+                    <a class="nav-link" href="#">Lançamentos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Carrinhos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Entrar</a>
+                </li>
+            </ul>
+        </div>
+        <h1>SOUZA.STREET</h1>
+</nav>
+
+<body>
+    <h1>Entre em contato!</h1>
+    <form action="salvar.php" method="POST" enctype="multipart/form-data"></form>
+    <label for="estado">Estado:</label>
+    <select id="estado" name="estado" class="form-select" aria-label="Default select example">
+        <option value="1">Selecione</option>
+        <option value="2">São Paulo</option>
+        <option value="3">Minas Gerais</option>
+    </select>
+    <input type="checkbox" id="bicicleta" name="bicicleta" value="Bike">
+    <label for="bicicleta">Eu tenho uma bicicleta</label><br>
+    <br><input type="checkbox" id="carro" name="carro" value="Car">
+    <label for="carro">Eu tenho um carro</label><br>
+    <br><br>
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html">HTML</label><br>
+    <input type="radio" id="css" name="fav_language" value="CSS">
+    <label for="css">CSS</label><br>
+    <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+    <label for="javascript">JavaScript</label><br>
+    <label for="nome">Digite seu nome:</label>
+    <input type="text" placeholder="Nome" id="nome" class="form-control">
+    <label for="data_atendimento">Data atendimento:</label>
+    <input type="date" placeholder="Data atendimento" id="data_atendimento" class="form-control">
+    <label for="hora_atendimento">Hora atendimento:</label>
+    <input type="time" placeholder="Hora atendimento" id="hora_atendimento" class="form-control">
+    <input type="datetime-local" id="data_hora_atendimento" class="form-control">
+    <label for="email">Digite seu email:</label>
+    <input type="email" placeholder="Email" id="email" class="form-control">
+    <label for="telefone">Digite seu telefone:</label>
+    <input type="tel" placeholder="Telefone" id="telefone" class="form-control">
+    <label for="mensagem">Digite sua mensagem:</label>
+    <textarea placeholder="Mensagem" id="mensagem" class="form-control"></textarea>
+    <label for="anexo">Anexar arquivo</label>
+</body>
+
+</html>
