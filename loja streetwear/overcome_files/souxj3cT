@@ -1,0 +1,8 @@
+(() => {
+      var _mtm = window._mtm = window._mtm || [];
+      _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start' , 'event': 'gtm.load'});
+      (function() {
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://taghike.com/js/container_souxj3cT.js'; s.parentNode.insertBefore(g,s);
+      })();
+    })()

@@ -1,0 +1,6 @@
+var src = 'https://pixel.rtgvwr.com/event/trk.js?adid=911&tid=11743' 
+try { src += '&ref=' + encodeURIComponent(window.location.protocol + '//' + window.location.host + window.location.pathname + window.location.search); } catch (e) {}
+var script = document.createElement('script');
+script.setAttribute('type', 'text/javascript');
+script.setAttribute('src', src);
+document.body.appendChild(script);
