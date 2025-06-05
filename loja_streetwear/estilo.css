@@ -1,0 +1,20 @@
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: auto;
+    background-image: url('PRETO.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+h1, h2, h3 {
+    color: #ffffff;
+}
+.form-label {
+    color: #8e8888;
+    font-weight: bold;
+}
+.form-check-label {
+    color: #ffffff;
+}
