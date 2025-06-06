@@ -7,13 +7,12 @@
   <title>SOUZA.STREET</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
-    <link rel="stylesheet" href="estilo.css">
+  <link rel="stylesheet" href="estilo.css">
   <style>
     body {
-     background-color: rgb(62, 58, 58);
+      background-color: rgb(62, 58, 58);
     }
-    </style>
-    
+  </style>
 </head>
 
 <body>
@@ -46,74 +45,89 @@
           </li>
         </ul>
       </div>
-    
+
       <h1>SOUZA.STREET</h1>
   </nav>
   <div class="container my-5">
     <div class="container mt-5 pt-5">
-    <h1 class="text-center">Cadastre-se</h1>
-    <form action="salvar.php" method="POST" enctype="multipart/form-data">
-      <div class="mb-3">
-        <label for="estado" class="form-label">Estado:</label>
-        <select id="estado" name="estado" class="form-select">
-          <option value="">Selecione</option>
-          <option value="AC">Acre</option>
-          <option value="AL">Alagoas</option>
-          <option value="AP">Amapá</option>
-          <option value="AM">Amazonas</option>
-          <option value="BA">Bahia</option>
-          <option value="CE">Ceará</option>
-          <option value="ES">Espírito Santo</option>
-          <option value="GO">Goiás</option>
-          <option value="MA">Maranhão</option>
-          <option value="MT">Mato Grosso</option>
-          <option value="MS">Mato Grosso do Sul</option>
-          <option value="MG">Minas Gerais</option>
-          <option value="PA">Pará</option>
-          <option value="PB">Paraíba</option>
-          <option value="PR">Paraná</option>
-          <option value="PE">Pernambuco</option>
-          <option value="PI">Piauí</option>
-          <option value="RJ">Rio de Janeiro</option>
-          <option value="RN">Rio Grande do Norte</option>
-          <option value="RS">Rio Grande do Sul</option>
-          <option value="RO">Rondônia</option>
-          <option value="RR">Roraima</option>
-          <option value="SC">Santa Catarina</option>
-          <option value="SP">São Paulo</option>
-          <option value="SE">Sergipe</option>
-          <option value="TO">Tocantins</option>
-        </select>
-      </div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-6 col-lg-5">
+            <div class="card shadow p-4">
+              <h1 class="text-center">Cadastre-se</h1>
+              <form action="salvar.php" method="POST" enctype="multipart/form-data">
+                <div class="mb-3">
+                  <label for="estado" class="form-label">Estado:</label>
+                  <select id="estado" name="estado" class="form-select">
+                    <option value="">Selecione</option>
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                  </select>
+                </div>
+              </form>
 
-      <div class="mb-3">
-        <label for="nome" class="form-label">Nome:</label>
-        <input type="text" name="nome" id="nome" class="form-control" placeholder="Digite seu nome">
-      </div>
 
-      <div class="mb-3">
-        <label for="data_nascimento" class="form-label">Data de nascimento:</label>
-        <input type="date" name="data_nascimento" id="data_nascimento" class="form-control">
-      </div>
+              <div class="mb-3">
+                <label for="nome" class="form-label">Nome:</label>
+                <input type="text" name="nome" id="nome" class="form-control" placeholder="Digite seu nome">
+              </div>
 
-      <div class="mb-3">
-        <label for="email" class="form-label">Email:</label>
-        <input type="email" name="email" id="email" class="form-control" placeholder="Digite seu email">
-      </div>
+              <div class="mb-3">
+                <label for="data_nascimento" class="form-label">Data de nascimento:</label>
+                <input type="date" name="data_nascimento" id="data_nascimento" class="form-control">
+              </div>
 
-      <div class="mb-3">
-        <label for="telefone" class="form-label">Telefone:</label>
-        <input type="tel" name="telefone" id="telefone" class="form-control" placeholder="Digite seu telefone">
-      </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" name="email" id="email" class="form-control" placeholder="Digite seu email">
+              </div>
 
-      <div class="mb-3">
-        <label for="cpf" class="form-label">CPF:</label>
-        <input type="text" name="cpf" id="cpf" class="form-control" placeholder="Digite seu CPF">
+              <div class="mb-3">
+                <label for="telefone" class="form-label">Telefone:</label>
+                <input type="tel" name="telefone" id="telefone" class="form-control" placeholder="Digite seu telefone">
+              </div>
+
+              <div class="mb-3">
+                <label for="cpf" class="form-label">CPF:</label>
+                <input type="text" name="cpf" id="cpf" class="form-control" placeholder="Digite seu CPF">
+              </div>
+              <div class="form-check mb-3">
+                <input class="form-check-input" type="checkbox" id="termos" name="termos">
+                <label class="form-check-label" for="termos">
+                  Aceito os termos de uso e a política de privacidade
+                </label>
+              </div>
+
+              <a href="#" class="btn btn-primary">Enviar Informações</a>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="form-check mb-3">
-        <input class="form-check-input" type="checkbox" id="termos" name="termos">
-        <label class="form-check-label" for="termos">
-          Aceito os termos de uso e a política de privacidade
-        </label>  
-      </div>
-      <a href="#" class="btn btn-primary">Enviar Informações</a>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-7+9z6b1d8f4

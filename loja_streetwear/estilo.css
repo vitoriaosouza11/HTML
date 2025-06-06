@@ -12,9 +12,41 @@ h1, h2, h3 {
     color: #ffffff;
 }
 .form-label {
-    color: #8e8888;
+    color: #f0ecec;
     font-weight: bold;
 }
 .form-check-label {
     color: #ffffff;
+}
+span {
+    color: #ffffff;
+}
+strong {
+    color: #ffffff;
+}
+.card {
+    background-color: #979595;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.btn-primary {
+    background-color: #515b67;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-primary:hover {
+    background-color: #567898;
+}
+footer {
+    background-color: #515b67;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
 }
